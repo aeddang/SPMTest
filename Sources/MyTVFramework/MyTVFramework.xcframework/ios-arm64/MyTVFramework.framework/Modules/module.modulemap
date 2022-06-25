@@ -1,0 +1,11 @@
+framework module MyTVFramework {
+  umbrella header "MyTVFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module MyTVFramework.Swift {
+    header "MyTVFramework-Swift.h"
+    requires objc
+}
